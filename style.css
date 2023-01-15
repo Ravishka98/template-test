@@ -1,0 +1,13 @@
+/*! Anytime you adding padding to any element,that padding will stretch the page,Lets say you have page 100% view ports width and if you adding padding to something it would make that 100% and it would force horizantal scroll bar Box sizing avoiding prevents that extra hieght or width when adding padding*/
+
+html {
+  box-sizing: border-box;
+}
+
+/*! "Vh" stands for view port height (Full height of the entire window)*/
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background-color: dodgerblue; */
+}
